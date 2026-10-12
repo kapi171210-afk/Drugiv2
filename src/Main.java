@@ -4,11 +4,12 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main{
     public static  void main(String[] args){
-        System.out.println("Dzisiaj jest poniedzialek");
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj swoje imie");
         String name = scanner.nextLine();
         System.out.println("Dzien dobry " + name);
+        System.out.println("Dzisiaj jest poniedzialek");
     }
 
 }
